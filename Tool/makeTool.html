@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link href="css/style.css" rel="stylesheet" />
+    <script src="js/jquery-3.6.0.min.js"></script>
+
+    <!--=============== Font Awesome 5 ===============-->
+
+    <script src="https://kit.fontawesome.com/b335c44d43.js" crossorigin="anonymous"></script>
+
+    <!--=============== flickity 라이브라리 ===============-->
+    <script src="./js/flickity.pkgd.js"></script>
+    <link rel="stylesheet" href="./css/flickity.css">
+</head>
+
+<body>
+    <!--=============== header ===============-->
+    <header>
+        <div class="container header-wrapper">
+            <div class="header-left-title">
+                <h1>recipes</h1>
+            </div>
+            <div class="searchArea" id="makeImg">
+                <form id="form4" action="#" method="post">
+                    <input type="text" id="inText" class="searchText" />
+                    <button class="searchButton" id="sbtn4" type="submit"><i class="fas fa-search searchImg"></i></button>
+                    </form>
+            </div>
+            <div class="header-right-item">
+                <ul class="header-list-item">
+                    <li class="about"><a href="notice.html">공지사항</a></li>
+                    <li class="login"><a href="login.html"><i class="fa-solid fa-arrow-right-to-bracket icon"></i></a></li>
+                    <li class="my-page">
+                        <a href="mypage.html" class="drawer">
+                            <i class="fa-regular fa-user icon"></i></a>
+
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!--=============== 선택 ===============-->
+    <section class="top">
+        <div class="container">
+            <ul class="top-list-item">
+                <li><a href="#" >한식</a></li>
+                <li><a href="#" >일식</a></li>
+                <li><a href="#" >중식</a></li>
+                <li><a href="#" >양식</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <!--=============== 본문내용 ===============-->
+    <section class="main">
+       <div class="recipse_main">
+           <ul class="middle-list-item">
+            <div>
+                <input type="file" class="real-upload" accept="image/*" required multiple style="display: none;">
+                <img src="camera.jpg" alt="" style="width: 100px; height: 100px;" class="uplaod">
+           </div>
+                <li>hello world</li>
+           </ul>
+           <ul></ul>
+       </div>
+    </section>
+
+    <!--=============== footer ===============-->
+    <footer>
+        <p>Since 2022 </p>
+        <a href="produce.html">회사소개</a>
+    </footer>
+
+    <script type="text/javascript" src="./slick/slick.min.js"></script>
+    <script type="text/javascript" src="./js/common.js"></script>
+</body>
+
+
+</html>
+<script>
+    //이미지 클릭시 사진올리기
+    let realUpload = document.querySelector('.real-upload');
+    let upload = document.querySelector('.uplaod');
+
+    upload.addEventListener('click', () => realUpload.click());
+</script>
