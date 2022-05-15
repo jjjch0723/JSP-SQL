@@ -251,12 +251,44 @@ footer p {
   font-weight: bold;
   font-size: 20px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
 }
+
 .main .real-upload{
   display: none;
 }
+
 .main .upload{
   width: 100px;
   height: 100px;
+}
+
+.main .recipse_title{
+  font-weight: bold;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  /* margin-bottom: 30px; */
+}
+
+.main .middle-list-item_ingredients{
+  font-weight: bold;
+  font-size: 20px;
+  align-items: flex-start;
+  margin-bottom: 50px;
+}
+
+.main .user_profile{
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.main .user_profile_cam{
+  width: 80px;
+  height: 80px;
 }
