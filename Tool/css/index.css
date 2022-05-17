@@ -251,8 +251,8 @@ footer p {
   font-weight: bold;
   font-size: 20px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
   flex-direction: row;
 }
 
@@ -291,4 +291,49 @@ footer p {
 .main .user_profile_cam{
   width: 80px;
   height: 80px;
+}
+
+.main .user_profile{
+  border: 3px solid #082B48;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.recipse_main{
+  border: 3px solid #082B48;
+  margin-top: 5px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+/* .text_ex{
+  border: 2px solid #082B48;
+  margin: 5px;
+} */
+
+.user_profile_cam{
+  border: 2px solid gray;
+  margin: 4px;
+  float: left;
+}
+
+.user_name{
+  border: 1px solid gray;
+  margin: 5px;
+  text-align: center;
+  width: 70%;
+}
+
+.user_views{
+  border: 1px solid gray;
+  margin: 5px;
+  text-align: center;
+  width: 70%;
+}
+
+.user_update{
+  border: 1px solid gray;
+  margin: 5px;
+  text-align: center;
+  width: 70%;
 }
