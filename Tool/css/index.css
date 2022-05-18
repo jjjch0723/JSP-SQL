@@ -294,13 +294,13 @@ footer p {
 }
 
 .main .user_profile{
-  border: 3px solid #082B48;
+  border: 2px solid #082B48;
   margin-left: 30%;
   margin-right: 30%;
 }
 
 .recipse_main{
-  border: 3px solid #082B48;
+  border: 1px solid #082B48;
   margin-top: 5px;
   margin-left: 20%;
   margin-right: 20%;
@@ -313,6 +313,7 @@ footer p {
 
 .user_profile_cam{
   border: 2px solid gray;
+  border-radius: 15px;
   margin: 4px;
   float: left;
 }
@@ -321,19 +322,25 @@ footer p {
   border: 1px solid gray;
   margin: 5px;
   text-align: center;
+  border-radius: 15px;
   width: 70%;
+  transform: translateX(40%);
 }
 
 .user_views{
   border: 1px solid gray;
   margin: 5px;
   text-align: center;
+  border-radius: 15px;
   width: 70%;
+  transform: translateX(40%);
 }
 
 .user_update{
   border: 1px solid gray;
   margin: 5px;
   text-align: center;
+  border-radius: 15px;
   width: 70%;
+  transform: translateX(40%);
 }
